@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class CWH_04_literals {
     public static void main(String[] args){
         byte age=34;
@@ -12,5 +13,19 @@ public class CWH_04_literals {
         System.out.println(age2);
         String str="Vivek";
         System.out.println(str);
-    }
+
+            Scanner read = new Scanner(System.in);
+            // accept the count of test cases given in the 1st line
+            int t = read.nextInt();
+
+            // Run a loop to accept 't' inputs
+            for(int i=0; i<t; i++)
+            {
+                // accept an integer N in each test case
+                int n = read.nextInt();
+                // output the number mirror for each test case
+                // "println" prints output followed with a new line.
+                System.out.println(n);
+            }
+        }
 }
