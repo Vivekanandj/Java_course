@@ -7,9 +7,9 @@ public class cwh_fibonacci {
         System.out.print("Fibonacci Series of " + n + " numbers: ");
         for (int i = 0; i < n; i++) {
             System.out.print(f + " ");
-            int f3= f1+f;
+            int f2= f1+f;
             f = f1;
-            f1 = f3;
+            f1 = f2;
         }
     }
     public static void main(String[] args) {
