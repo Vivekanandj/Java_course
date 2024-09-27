@@ -5,6 +5,7 @@ public class cwh_triangle {
         System.out.print("Triangle Series of " + n + " numbers: ");
         for(int i=1;i<=n;i++){
             int sum = (i*(i+1))/2;
+            
             System.out.print(sum + " ");
         }
     }
